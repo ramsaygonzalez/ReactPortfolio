@@ -13,7 +13,7 @@ nav{
 }
 #about-me-container{
   padding-top: 10%;
-  flex-wrap: nowrap | wrap | wrap-reverse;
+  flex-wrap: wrap 
 }
 
 #about-me{
@@ -27,6 +27,33 @@ nav{
   height: auto;
 }
 
-.fa{
+.fa {
   font-size: 48px;
+}
+
+.fa {
+  font-size: 48px;
+}
+
+.fas {
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 30px;
+ padding: 10px 20px;
+  background: lightgray;
+  color: black;
+  text-align: center;
+  position: fixed;;
+      bottom:0;
+      display:block;  
+      width:100%
+}
+
+#portfolio-container{
+  margin-bottom: 100px;
+}
+#contact-form{
+ width: fit-content;
 }

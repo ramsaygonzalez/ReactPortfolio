@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, ListGroup, ListGroupItem } from 'react-boots
 
 function About() {
     return (
-        <Container fluid id="about-me-container">
+        <Container id="about-me-container">
             <Row>
                 <Col><Card id="about-me" style={{ width: '30rem' }}>
                     <Card.Img variant="top" src="/ramsayg.jpg" />
@@ -32,9 +32,9 @@ function About() {
                         <br />
                         <Card.Link href="https://github.com/ramsaygonzalez"><i class="fa fa-github"
                         ></i></Card.Link>
-                            <Card.Link href="https://github.com/ramsaygonzalez"><i class="fa fa-linkedin-square"
+                        <Card.Link href="https://www.linkedin.com/in/ramsay-gonzalez-35a31ba9/?originalSubdomain=af"><i class="fa fa-linkedin-square"
                         ></i></Card.Link>
-                        <Card.Link href="/assets/Gonzalez, Ramsay Resume.pdf"><i class="fa fa-file"
+                        <Card.Link href="https://github.com/ramsaygonzalez/ReactPortfolio/blob/master/src/components/assets/Gonzalez%2C%20Ramsay%20Resume.pdf"><i class="fa fa-file"
                         ></i></Card.Link>
                     </Card.Body>
                 </Card></Col>
