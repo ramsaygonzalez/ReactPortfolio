@@ -1,7 +1,6 @@
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('../src/components/assets/background.jpg');
+     background-image: url('../src/components/assets/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -12,57 +11,22 @@ nav{
   position: fixed;  
   background-color: lightgrey;;
 }
-
-main {
-  margin: 70px;
-  background-color:lightgrey;
-  padding: 50px;
-  border-radius: 8px;
-     
+#about-me-container{
+  padding-top: 10%;
+  flex-wrap: nowrap | wrap | wrap-reverse;
 }
 
+#about-me{
+  float: right;
+}
+#contact-me{
+  float: left;
+}
 
-  img {
-
-  width: 100%;
+#card-contact{
   height: auto;
-  margin: 0 10px  10px 0;
 }
 
-.jumbotron {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 0;
-  background-color: #fff;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
-}
-.card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
+.fa{
+  font-size: 48px;
 }
