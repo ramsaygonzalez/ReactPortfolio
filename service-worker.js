@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/%E2%80%9Chomepage%E2%80%9D:%20%E2%80%9Chttp://ramsaygonzalez.github.io/reactportfolio/precache-manifest.8f153492b7cfefd6e36d9104ba6734aa.js"
+  "/ReactPortfolio/precache-manifest.fae9033b596da722209a46d46c4e0a7b.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/%E2%80%9Chomepage%E2%80%9D:%20%E2%80%9Chttp://ramsaygonzalez.github.io/reactportfolio/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/ReactPortfolio/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
